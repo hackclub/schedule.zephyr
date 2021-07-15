@@ -17,7 +17,7 @@ export default function Hub() {
         'https://maps.google.com/maps/dir//101+Main+St,+Burlington,+VT+05401,+USA/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7af9c1a9d59f:0x8ad2476167d2d907?sa=X'
     },
     {
-      label: 'Hack Club Office',
+      label: 'Hack Club HQ Office',
       address: '15 Falls Rd, Shelburne VT 05482',
       googleMaps:
         'https://maps.google.com/maps/dir//15+Falls+Rd,+Shelburne,+VT+05482,+USA/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7ddb3da56173:0xa183e5091b2e5388?sa=X'
@@ -53,8 +53,8 @@ export default function Hub() {
         'https://maps.google.com/maps/dir//Hyatt+Regency+San+Francisco,+5+Embarcadero+Center,+San+Francisco,+CA+94111,+USA/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80858066b2ae7cab:0xfa369d8ed2b35dd6?sa=X'
     },
     {
-      label: 'Marina del Rey Doubletree by Hilton',
-      address: '13480 Maxella Ave, Marina del Rey, CA 90292-5620',
+      label: 'Hotel Erwin',
+      address: '1697 Pacific Avenue  CA 90291',
       googleMaps:
         'https://maps.google.com/maps/dir//13480+Maxella+Ave,+Marina+Del+Rey,+CA+90292,+USA/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80c2ba877395eec1:0xf963b97e508dbdda?sa=X'
     },
@@ -93,8 +93,13 @@ export default function Hub() {
     {
       name: 'Woody Keppel',
       phone: '(802) 318-5521'
+    },
+    {
+      name: 'Leo McElroy',
+      phone: '(203) 644-6988'
     }
   ]
+  
   const schedule = [
     {
       date: '15/07/2021',
@@ -103,34 +108,34 @@ export default function Hub() {
           title: 'Welcomes Begin',
           time: '12:00pm',
           address:
-            'Hilton Burlington, 60 Battery St, Burlington, VT 05401, United States',
+            'Hilton Garden Burlington, 60 Battery St, Burlington, VT 05401, United States',
           googleMaps:
             'https://maps.google.com/maps/dir//hilton+burlington+vt+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7af0f4a901e7:0x9387c428f4901901?sa=X'
         },
         {
-          title: 'Optional Walk to City Market Burlington',
+          title: 'Optional Walk to City Market, Burlington',
           time: '4:00pm',
           description:
             'Shop for a picnic dinner of baguettes, cheeses, sliced salami and ham, grapes, watermelon, crackers, nuts, sliced tomatoes, pickles',
-          address: 'Meet at the Hilton Lobby???',
+          address: 'Meet at the Hilton Garden Lobby at 4pm',
           googleMaps:
             'https://maps.google.com/maps/dir//hilton+burlington+vt+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7af0f4a901e7:0x9387c428f4901901?sa=X'
         },
         {
           title: 'Picnic Dinner',
           time: '7:00pm',
-          address: 'Lake Champlain Waterfront'
+          address: 'Lake Champlain Waterfront near Echo Museum'
         },
         {
           title: 'Exploration Time',
           time: '8:00pm',
-          address: 'Church Street'
+          address: 'Church Street, Lake Champlain Chocolates for ice cream'
         },
         {
           title: 'Nighttime Curfew',
           time: '10:30pm',
           address:
-            'Hilton Burlington, 60 Battery St, Burlington, VT 05401, United States',
+            'Hilton Garden Burlington, 60 Battery St, Burlington, VT 05401, United States',
           googleMaps:
             'https://maps.google.com/maps/dir//hilton+burlington+vt+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7af0f4a901e7:0x9387c428f4901901?sa=X'
         }
@@ -145,15 +150,15 @@ export default function Hub() {
           description: 'You must feed yourself.'
         },
         {
-          title: 'Meet at Hilton for Bus Pickup',
-          time: '12:00pm',
+          title: 'Meet at Hilton Garden Lobby for Bus Pickup',
+          time: '12:00pm departure',
           address:
             'Hilton Burlington, 60 Battery St, Burlington, VT 05401, United States',
           googleMaps:
             'https://maps.google.com/maps/dir//hilton+burlington+vt+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca7af0f4a901e7:0x9387c428f4901901?sa=X'
         },
         {
-          title: 'Spend time at HQ',
+          title: 'Lunch and Spend time at HQ',
           time: '12:30pm',
           address: '15 Falls Road, Shelburne, VT, 05482'
         },
@@ -198,11 +203,11 @@ export default function Hub() {
         {
           title: 'Breakfast',
           time: '7:00AM',
-          address: 'Hilton Burlington Meeting Room'
+          address: 'Hilton Burlington Lobby'
         },
         {
           title: 'Bus Departs the Hilton to NYC',
-          time: '8:00AM',
+          time: '7:45AM',
           address:
             'Hilton Burlington, 60 Battery St, Burlington, VT 05401, United States'
         },
@@ -214,7 +219,7 @@ export default function Hub() {
         {
           title: 'Dinner',
           time: '9:00PM',
-          address: 'Bryant Park -> Exact Address??'
+          address: 'Bryant Park, Fountain near 6th Avenue and West 41st street'
         },
         {
           title: 'Enter Hotel',
