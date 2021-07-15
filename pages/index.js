@@ -232,26 +232,26 @@ export default function Hub() {
       date: '18/07/2021',
       items: [
         {
-          title: 'Free Time Around NYC',
+          title: 'Free Morning Around NYC until 12:45pm',
           time: '8:00AM',
 
-          description: "You'll need to get your dinner!",
-          address: 'Hub @ ???? Diner'
+          description: "Opt-in MOMA Museum trip departs 10am",
+          
         },
         {
           title: 'Announcement @ Hotel',
-          time: '1:00PM',
+          time: '12:45PM',
           address: 'Hilton Double Tree, 350 W 40th St, New York, NY 10018'
         },
         {
-          title: 'Depart from Hotel to Train Station',
-          time: '1:45PM',
-          address: 'Hilton Double Tree, 350 W 40th St, New York, NY 10018'
+          title: 'Depart from Hotel to Penn Station',
+          time: '1:30PM',
+          address: 'Penn Station: 8th and West 33rd Street, New York, NY'
         },
         {
-          title: 'Train Departs to Chicago & Hacking Begins',
+          title: 'Train Departs Penn Station to Chicago & Hacking Begins',
           time: '3:40PM',
-          address: '??? Station'
+      
         }
       ]
     },
@@ -259,49 +259,48 @@ export default function Hub() {
       date: '19/07/2021',
       items: [
         {
-          title: 'Get Ready to Debark',
+          title: 'Get Ready to Debark onto platform and change trains',
           time: '9:30AM',
           description:
             "Make sure you've packed everything, things could go hectic."
         },
         {
-          title: 'Debark Train at Chicago',
+          title: 'Debark Train at Chicago for layover and change to Zephyr Train',
           time: '9:50AM',
-          address: '??? Station'
+         
         },
         {
           title: 'River Walk around Chicago',
           time: '10:00AM',
-          address: '???'
+          address: 'Depending on time, we\'ll walk around all together'
         },
         {
           title: 'Board Zephyr Train at Chicago',
           time: '1:30PM',
-          address: '??? Station'
+          address:  'Chicago\'s Union Train station'
         },
         {
-          title: 'First Dinner',
+          title: 'Dinner, first seating',
           time: '6:00PM'
         },
         {
-          title: 'Second Dinner',
+          title: 'Dinner, second seating',
           time: '7:30PM'
         },
         {
-          title: 'Fireside Chat with Tom Preston Warner',
+          title: 'Fireside Chat with Tom Preston-Werner',
           time: '8:30PM'
-        }
-      ]
+    },
+        ]
     },
     {
       date: '20/07/2021',
       items: [
+        
         {
-          title: 'Midnight Party',
-          time: '12:00AM',
-          description: '???'
+          title: 'Hackin\' all day',
         },
-        {
+          {
           title: 'First Dinner',
           time: '5:30PM'
         },
@@ -325,17 +324,16 @@ export default function Hub() {
         {
           title: 'Disembark the Train',
           time: '4:15PM',
-          description: '???'
+          description: 'Emeryville Station, bus to hotel'
         },
         {
-          title: 'Get Your Own Dinner',
+          title: 'Hotel Hyatt Regency San Francisco',
           time: '6:00PM',
-          address: 'Ferry Building ???'
-        },
+          address: '5 Embarcadero Center, San Francisco, CA 94111-4800'
+        },     
         {
-          title: 'Music in Hotel Lobby',
-          time: '8:00PM',
-          address: '???'
+          title: 'Dinner plans afoot',
+          time: '6:30PM',
         }
       ]
     },
@@ -347,19 +345,19 @@ export default function Hub() {
           time: '8:00AM'
         },
         {
-          title: 'Optional Cliff Stohl Visit',
-          time: '10:00AM',
-          address: '???'
+          title: 'Optional: Cliff Stohl Visit in Oakland',
+          time: '8:45AM',
+          address: 'Hotel lobby'
         },
         {
-          title: 'Optional Vercel Meetup with Guillermo',
+          title: 'Optional: Vercel Meetup with Guillermo',
           time: '3:00PM',
-          address: '650 California St, San Francisco, CA 94108'
+          address: 'Vercel HQ, 650 California St, San Francisco, CA 94108'
         },
         {
-          title: 'Park Dinner',
+          title: 'Dinner at Dolores Park',
           time: '7:00PM',
-          address: 'Dolores St &, 19th St, San Francisco, CA 94114'
+          address: '20th and Church (southwest corner/ the tallest part of park), San Francisco, CA'
         }
       ]
     },
@@ -368,7 +366,8 @@ export default function Hub() {
       items: [
         {
           title: 'Bus to Emeryville Train Station Departs',
-          time: '6:45AM'
+          time: '6:45AM',
+          address: 'Hotel lobby'
         },
         {
           title: 'Amtrak Train Departs',
@@ -378,12 +377,12 @@ export default function Hub() {
         {
           title: 'Arrive in LA',
           time: '9:00PM',
-          address: '???'
+          address: ''
         },
         {
-          title: 'Charter Bus Departs to Hotel Erwin /  Larry’s Loft',
+          title: 'Bus Departs to Hotel Erwin',
           time: '9:05PM',
-          address: '??? Station'
+          address: 'Larry\'s Loft for dinner'
         }
       ]
     },
@@ -401,9 +400,9 @@ export default function Hub() {
           address: 'Hotel Lobby?'
         },
         {
-          title: 'Sunset Dinner',
+          title: 'Sunset Dinner on beach',
           time: '7:00PM',
-          address: '???'
+          address: 'Hotel lobby'
         }
       ]
     },
@@ -412,8 +411,8 @@ export default function Hub() {
       items: [
         {
           title: 'Charter Bus to LAX Departs',
-          time: '8:00AM',
-          address: 'Hotel Lobby???'
+          time: 'TBD',
+          address: 'Hotel Lobby'
         }
       ]
     }
