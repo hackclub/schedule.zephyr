@@ -1,0 +1,42 @@
+{
+  "name": "all-aboard",
+  "version": "0.0.1",
+  "authors": [
+    "Sam Poder <sam@summer.hackclub.com>",
+    "Max Wofford <max@hackclub.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hackclub/meta": "^1.1.32",
+    "@hackclub/theme": "^0.3.2",
+    "@mattjennings/react-modal": "^1.0.2",
+    "@mattjennings/react-modal-stack": "^1.0.2",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^10.0.4",
+    "@octokit/core": "^3.5.1",
+    "airtable-plus": "^1.0.4",
+    "chrome-aws-lambda": "^10.0.0",
+    "framer-motion": "3.10.6",
+    "hls.js": "^1.0.7",
+    "marked": "^2.1.3",
+    "next": "^11.0.1",
+    "palx": "^1.0.3",
+    "puppeteer-core": "^10.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-tilt": "^0.1.4",
+    "theme-ui": "^0.10.0",
+    "twemoji": "^13.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@types/react": "^17.0.13"
+  }
+}
